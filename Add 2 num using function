@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+class vik{
+public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int m = scanner.nextInt();
+    int ans = add(n,m);
+    System.out.print(ans);
+}
+public static int add(int n , int m){
+    return(n+m);
+}
+}
