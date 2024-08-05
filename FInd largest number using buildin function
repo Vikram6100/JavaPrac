@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+class vik{
+public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
+    int a = scanner.nextInt();
+    int b = scanner.nextInt();
+    int c = scanner.nextInt();
+   System.out.print( great(a,b,c));
+}
+
+public static int great(int a, int b, int c){
+    return (Math.max(Math.max(a,b),c));
+}
+}
